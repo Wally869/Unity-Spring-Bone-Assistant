@@ -21,12 +21,12 @@ This repository therefore contains utilities to make this process less bothersom
 - Add a SpringBoneAssistant somewhere in the hierarchy and add a reference to a SpringManager Component previously added.
 - Click the "Mark Children" button
 
-What happens here:
-1- The SpringBoneAssistant will get all objects which have a SpringBoneMarker component
-2- It will check if it has children. If it does, it will get the children and add a SpringBoneMarker component to them too
-3- Once all possible objects have been marked, it will once again get all objects with a SpringBoneMarker component
-4- All these objects will have a SpringBone component added to them, and the SpringBoneMarker will be deleted
-5- All SpringBones will be registered in the SpringManager
+What happens here:  
+1- The SpringBoneAssistant will get all objects which have a SpringBoneMarker component  
+2- It will check if it has children. If it does, it will get the children and add a SpringBoneMarker component to them too  
+3- Once all possible objects have been marked, it will once again get all objects with a SpringBoneMarker component  
+4- All these objects will have a SpringBone component added to them, and the SpringBoneMarker will be deleted  
+5- All SpringBones will be registered in the SpringManager  
 
 
 ## To Note  
