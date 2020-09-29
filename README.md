@@ -7,7 +7,7 @@ Tested on Unity 2019.4.7f
 ## Overview
 The Unity-chan Toon Shader repository [includes scripts for "Spring Bones"](https://github.com/unity3d-jp/UnityChanToonShaderVer2_Project/tree/release/legacy/2.0/Assets/UnityChan/Scripts), aka bones that will be affected by the movement of the main mesh, but will go back to their default position over time. 
 
-This is really useful for hair and clothes physics (see this video for details: https://www.youtube.com/watch?v=ABLFXcSHodE)
+This is really useful for hair and clothes physics (see this article for details: https://www.noveltech.dev/unity-implement-hair-clothes-physics/ or this video: https://www.youtube.com/watch?v=ABLFXcSHodE)
 
 The main problems with the spring bones provided:
 - The spring bone script must be set to every hair bone. If your hair is very detailed, that means you need to set it at every level of the bone hierarchy.
